@@ -313,3 +313,21 @@ export const footer = [
     text: [{ list: "About" }, { list: "News" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
   },
 ]
+
+export const tableData = [
+  {
+    id:"1",
+    classification:"Solid Mineral",
+    MineralName:"Kaolin",
+    Location:"AkokoEdo",
+    Application:"Road building"
+  },
+
+  {
+    id:"2",
+    classification:"Solid Mineral",
+    MineralName:"Gypsum",
+    Location:"AkokoEdo, Edo North",
+    Application:"Road building"
+  }
+]

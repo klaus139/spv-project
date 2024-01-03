@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <section className='footerContact'>
         <div className='container'>
-          <div className='send flex'>
+          <div className='send footer-flex'>
             <div className='text'>
               <h1>Do You Have Questions ?</h1>
               <p>Reach out to us for any questions and inquiries.</p>

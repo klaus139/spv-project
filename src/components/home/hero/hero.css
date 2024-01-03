@@ -76,6 +76,15 @@ form h4 {
   .hero{
     height:100vh;
   }
+  .hero h1 {
+    color: rgb(25, 20, 20);
+    font-size: 40px;
+  }
+  .hero p {
+    color: rgb(25, 20, 20);
+    opacity: 0.8;
+    font-size: 20px;
+  }
   .hero .container {
     padding-top: 30%;
     

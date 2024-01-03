@@ -1,0 +1,61 @@
+.table-container {
+    margin: 20px;
+    overflow-y: scroll;
+    
+  }
+  
+  table {
+    width: 800px;
+    height: auto;
+    border-collapse: collapse;
+    border: 2px solid #55608f; /* Border for the entire table */
+   
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+
+  }
+  
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(1, 6, 38);
+    border: 1px solid #55608f; /* Border for cells */
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  thead th {
+    background-color: #55608f;
+    color: white;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: aliceblue; /* Blue background for odd rows */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: white; /* White background for even rows */
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(85, 5, 5, 0.085);
+  }
+  
+  tbody td {
+    position: relative;
+  }
+  
+  tbody td:hover:before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
+  
