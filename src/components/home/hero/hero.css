@@ -1,21 +1,35 @@
 .hero {
-  background-image: url("../../../../public/images/banner.png");
+  background-image: url("../../../../public/images/b5.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 80vh;
   width: 100%;
+  background-attachment: fixed;
+
+  
 }
+
+/* .hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 2, 0.5); 
+} */
 .hero .container {
   padding-top: 15%;
 }
 .hero h1 {
-  color: #fff;
+  color: rgb(25, 20, 20);
   font-size: 60px;
 }
 .hero p {
-  color: #fff;
+  color: rgb(25, 20, 20);
   opacity: 0.8;
+  font-size: 20px;
 }
 form {
   background-color: #fff;

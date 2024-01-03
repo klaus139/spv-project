@@ -12,6 +12,10 @@ body {
   max-width: 80%;
   margin: auto;
 }
+.logoimg{
+  width:100px;
+  height:100px;
+}
 .flex {
   display: flex;
   justify-content: space-between;
@@ -41,8 +45,11 @@ button i {
   text-align: center;
   width: 60%;
   margin: auto;
+  z-index: 99;
+  color:white;
 }
 .heading h1 {
+  z-index: 90;
   color: #2d3954;
   font-weight: 600;
   text-transform: capitalize;

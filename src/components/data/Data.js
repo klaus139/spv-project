@@ -304,15 +304,12 @@ export const price = [
 ]
 export const footer = [
   {
-    title: "LAYOUTS",
-    text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+    title: "CONTENT",
+    text: [{ list: "Home" }, { list: "About" }, { list: "Gallery" }, { list: "Lisense" }, { list: "Contact" }, { list: "News" }],
   },
-  {
-    title: "ALL SECTIONS",
-    text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
-  },
+  
   {
     title: "COMPANY",
-    text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+    text: [{ list: "About" }, { list: "News" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
   },
 ]

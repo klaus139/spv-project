@@ -1,8 +1,8 @@
 header {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.767);
   height: 10vh;
   box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
-  padding: 15px 0;
+  padding: 0px 0;
   position: sticky;
   top: 0;
   z-index: 99999;
@@ -16,12 +16,13 @@ header a {
   font-weight: 500;
 }
 header a:hover {
-  color: #27ae60;
+  color: #0a6c1e;
+  cursor: pointer;
 }
 header span {
   width: auto;
   padding: 0px 6px;
-  background: #27ae60;
+  background: #0a6c1e;
   border-radius: 50px;
   color: #ffffff;
   margin-right: 4px;
@@ -36,10 +37,18 @@ header .toggle {
 }
 @media screen and (max-width: 768px) {
   header {
-    padding: 0;
+    padding: 10;
+    height:90px;
+   
   }
   header img {
-    margin-top: 30px;
+    margin-top: 8px;
+    width:50px;
+    height:50px;
+  }
+  .logoimg{
+    width:60px;
+    height:60px;
   }
   header .button {
     display: none;
@@ -49,14 +58,14 @@ header .toggle {
   }
   header .toggle {
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   header .small {
     position: absolute;
-    top: 10vh;
+    top: 12vh;
     left: 0;
     width: 100%;
-    background-color: #27ae60;
+    background-color: #0a6c1e;
     padding: 20px;
   }
   header li a {

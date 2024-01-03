@@ -19,6 +19,10 @@ footer .container {
 footer img {
   width: 150px;
 }
+.logoimg{
+  width:80px;
+  height: 80px;
+}
 footer h2 {
   font-weight: 500;
 }
@@ -54,5 +58,16 @@ footer ul li {
 @media screen and (max-width: 800px) {
   footer .container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 700px) {
+  footer .container {
+    display:flex;
+    flex-direction: column;
+  }
+  .input {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
   }
 }

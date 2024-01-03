@@ -10,7 +10,7 @@ const Footer = () => {
           <div className='send flex'>
             <div className='text'>
               <h1>Do You Have Questions ?</h1>
-              <p>We'll help you to grow your career and growth.</p>
+              <p>Reach out to us for any questions and inquiries.</p>
             </div>
             <button className='btn5'>Contact Us Today</button>
           </div>
@@ -21,9 +21,9 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='../images/logo-light.png' alt='' />
+              <img src='../images/logo1.png' alt='logo' className="logoimg" />
               <h2>Do You Need Help With Anything?</h2>
-              <p>Receive updates, hot deals, tutorials, discounts sent straignt in your inbox every month</p>
+              <p>Receive updates, sent straignt in your inbox every month</p>
 
               <div className='input flex'>
                 <input type='text' placeholder='Email Address' />
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2021 RentUP. Designd By GorkCoder.</span>
+        <span>© 2024, Edo State Mining and Investment Company. Designd By <a href="mailto:nickoklaus5@gmail.com">KlausDev</a>.</span>
       </div>
     </>
   )
