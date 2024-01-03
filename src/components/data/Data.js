@@ -8,7 +8,7 @@ export const nav = [
     path: "/about",
   },
   {
-    text: "services",
+    text: "Licenses",
     path: "/services",
   },
   {
