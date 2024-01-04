@@ -8,11 +8,11 @@ export const nav = [
     path: "/about",
   },
   {
-    text: "Licenses",
+    text: "Partners",
     path: "/services",
   },
   {
-    text: "blog",
+    text: "Gallery",
     path: "/blog",
   },
   {
@@ -50,6 +50,27 @@ export const featured = [
     name: "Business",
     total: "",
   },
+]
+
+
+
+export const partners = [
+  {
+    cover: "../images/hero/logo-rosatom.png",
+    name: "Rosatum Russia",
+    total: "",
+  },
+  {
+    cover: "../images/hero/necit.jpeg",
+    name: "Necit Nig, LTD",
+    total: "",
+  },
+  {
+    cover: "../images/hero/renera.png",
+    name: "Renera Russia",
+    total: "",
+  },
+  
 ]
 export const list = [
   {
@@ -110,23 +131,23 @@ export const list = [
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
-    num: "32 M	",
-    name: "Blue Burmin Award",
+    num: "32",
+    name: "MOU",
   },
   {
     icon: <i class='fa-solid fa-briefcase'></i>,
-    num: "43 M",
-    name: "Mimo X11 Award",
+    num: "43",
+    name: "Clean Energy",
   },
   {
     icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "51 M",
-    name: "Australian UGC Award",
+    num: "51",
+    name: "Mining Licenses",
   },
   {
     icon: <i class='fa-solid fa-heart'></i>,
-    num: "42 M",
-    name: "IITCA Green Award",
+    num: "42",
+    name: "IITCA",
   },
 ]
 export const location = [
