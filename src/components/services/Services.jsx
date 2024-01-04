@@ -1,5 +1,5 @@
 import React from "react"
-import img from "../images/services.jpg"
+import img from "../images/partner1.jpeg"
 import Back from "../common/Back"
 import "../home/featured/Featured.css"
 import PartnerCard from "../partners/PartnerCard"
