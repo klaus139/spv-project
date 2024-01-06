@@ -1,13 +1,16 @@
 import React from "react"
 import img from "../images/pricing.jpg"
 import Back from "../common/Back"
+import Heading from "../common/Heading"
 import "./contact.css"
 
 const Contact = () => {
   return (
     <>
       <section className='contact mb'>
-        <Back name='Contact Us' title='Get Helps & Friendly Support' cover={img} />
+        <Back name='Contact Us' title='For questions and Inquires' cover={img} />
+
+        <Heading title='Call our number or send a text' subtitle='call us via or send a text to +2349077763387' />
         <div className='container'>
           <form className='shadow'>
             <h4>Fillup The Form</h4> <br />
