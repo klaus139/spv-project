@@ -16,8 +16,12 @@ export const nav = [
     path: "/blog",
   },
   {
+    text: "Minerals",
+    path: "/minerals",
+  },
+  {
     text: "Team",
-    path: "/pricing",
+    path: "/team",
   },
   {
     text: "contact",
@@ -420,16 +424,130 @@ export const tableData = [
   {
     id:"1",
     classification:"Solid Mineral",
-    MineralName:"Kaolin",
-    Location:"AkokoEdo",
-    Application:"Road building"
+    MineralName:"Limestone",
+    Location:"Okpella, Igarra, Atte, Ososo, Enwan, Ikpeshi, Egbegile, Iyuku, Igboshi-Ele, Sasaro, Igue",
+    Application:"Cement, chalk, fillers in paints, ceramics, medicine, industrial chemistry"
   },
 
   {
     id:"2",
     classification:"Solid Mineral",
+    MineralName:"Marble",
+    Location:"Okpella, Igarra, Ikpeshi, Igue, Otuo",
+    Application:"Cement, Glass, Fertilizers, Building, Decorations"
+  },
+  
+  {
+    id:"3",
+    classification:"Solid Mineral",
+    MineralName:"kaolin",
+    Location:"Avbios, Afuze, Sobe, Uzebba, Arue-Uromi, Igodo, Ojavun, Igbanke",
+    Application:"pharmeceuticals, Papers, paints, glass, ceramics"
+  },
+  {
+    id:"4",
+    classification:"Solid Mineral",
     MineralName:"Gypsum",
-    Location:"AkokoEdo, Edo North",
-    Application:"Road building"
-  }
+    Location:"Agenebode, Afuze",
+    Application:"plaster of paris, cement"
+  },
+  {
+    id:"5",
+    classification:"Solid Mineral",
+    MineralName:"Gold",
+    Location:"Sobe, Dangballa, Ososo, Imorga, Enwan, Uneme-Erhurun, Ojirami",
+    Application:"Ornaments, decorations, jewelry"
+  },
+  {
+    id:"6",
+    classification:"Solid Mineral",
+    MineralName:"Feldspar",
+    Location:"Imiakebu, Ewan",
+    Application:"Ceramics, glass, sanitary wears, building materials"
+  },
+  {
+    id:"7",
+    classification:"Solid Mineral",
+    MineralName:"Granite",
+    Location:"Evbonogbon, Igarra, Okpe, Ibillo, Somorika, Ososo, Imorga, Iyuku, Ibillo, Evbobogbon",
+    Application:"Building and road construction, decoration slab"
+  },
+  {
+    id:"8",
+    classification:"Solid Mineral",
+    MineralName:"Dolomite",
+    Location:"Atte, Egbigere, Lampese, Igarra, Ikpeshi, Okpella",
+    Application:"Cement, Glass, Building face"
+  },
+  {
+    id:"9",
+    classification:"Solid Mineral",
+    MineralName:"Tantalite",
+    Location:"Okpella, Atte, Ososo, Otuo",
+    Application:"Ornaments, decoration"
+  },
+  {
+    id:"10",
+    classification:"Solid Mineral",
+    MineralName:"Gemstone",
+    Location:"Okpella",
+    Application:"Ornaments, decoration"
+  },
+  {
+    id:"11",
+    classification:"Solid Mineral",
+    MineralName:"Quartz",
+    Location:"Okpella, Atte, Ososo, Otuo",
+    Application:"Building and flooring"
+  },
+  {
+    id:"12",
+    classification:"Semi-solid",
+    MineralName:"Bitumen",
+    Location:"Ohosu, Ugbogui, Usen, Siluko",
+    Application:"Road construction, industrial chemicals"
+  },
+  {
+    id:"13",
+    classification:"Solid Mineral",
+    MineralName:"Bentolite",
+    Location:"Evbonogbon, Ugbogui, Usen, Siluko, Okada",
+    Application:"Drilling fluid, water treatment"
+  },
+  {
+    id:"14",
+    classification:"Solid Mineral",
+    MineralName:"Laterite",
+    Location:"Edo South",
+    Application:"Building and construction"
+  },
+  {
+    id:"15",
+    classification:"Solid Mineral",
+    MineralName:"Sharp Sand",
+    Location:"Edo South and Central Senatorial District",
+    Application:"Building and road construction"
+  },
+  {
+    id:"16",
+    classification:"Solid Mineral",
+    MineralName:"River Gravel",
+    Location:"Abudu, Otah, Igbanke",
+    Application:"Construction purposes"
+  },
+  {
+    id:"17",
+    classification:"Solid Mineral",
+    MineralName:"Coal",
+    Location:"Ovbiowun",
+    Application:"combustion and additives"
+  },
+  {
+    id:"18",
+    classification:"Solid Mineral",
+    MineralName:"Lithium",
+    Location:"Ikpeshi, Atte",
+    Application:"Used in the production of batteries"
+  },
+  
 ]

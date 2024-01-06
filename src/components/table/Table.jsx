@@ -37,44 +37,44 @@ const Table = () => {
     useTable({ columns, data });
 
 
-  return (
-    <div className='container'>
-        <Heading title='EDO STATE MINERAL RESOURCES' subtitle='Explore our vast solid minerals and their locations' />
-        <div className="table-container">
-        <table {...getTableProps()}>
-          <thead>
-            {headerGroups.map((headerGroup) => (
-              <tr {...headerGroup.getHeaderGroupProps()}>
-                {headerGroup.headers.map((column) => (
-                  <th {...column.getHeaderProps()}>
-                    {column.render("Header")}
-                  </th>
+// ...
+
+return (
+  <div className='container'>
+    <Heading title='EDO STATE MINERAL RESOURCES' subtitle='Explore our vast solid minerals and their locations' />
+    <div className="table-container">
+      <table {...getTableProps()}>
+        <thead>
+          {headerGroups.map((headerGroup) => (
+            <tr {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map((column) => (
+                <th {...column.getHeaderProps()}>
+                  {column.render("Header")}
+                </th>
+              ))}
+            </tr>
+          ))}
+        </thead>
+        <tbody {...getTableBodyProps()}>
+          {rows.slice(0, 3).map((row) => { // Limit to the first two rows
+            prepareRow(row);
+            return (
+              <tr {...row.getRowProps()}>
+                {row.cells.map((cell) => (
+                  <td {...cell.getCellProps()}> {cell.render("Cell")} </td>
                 ))}
               </tr>
-            ))}
-          </thead>
-          <tbody {...getTableBodyProps()}>
-            {rows.map((row) => {
-              prepareRow(row);
-              return (
-                <tr {...row.getRowProps()}>
-                  {row.cells.map((cell) => (
-                    <td {...cell.getCellProps()}> {cell.render("Cell")} </td>
-                  ))}
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-      <Link to='/minerals'>
-      <button className='btn7'>More Minerals</button>
-      </Link>
-      
-      
-
+            );
+          })}
+        </tbody>
+      </table>
     </div>
-  )
+    <Link to='/minerals'>
+      <button className='btn7'>More Minerals</button>
+    </Link>
+  </div>
+)
+
 }
 
 export default Table
