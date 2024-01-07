@@ -330,14 +330,14 @@ export const team = [
   },
   {
     list: "38",
-    cover: "../images/customer/team-5.jpg",
+    cover: "../images/customer/dfa.jpeg",
     address: "Mr Asemota Richard",
     name: "Director of Account and Finance",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "38",
-    cover: "../images/customer/team-5.jpg",
+    cover: "../images/customer/dss.jpeg",
     address: "Mrs Omosigho Joy Oghogho",
     name: "Director Shared Services",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],

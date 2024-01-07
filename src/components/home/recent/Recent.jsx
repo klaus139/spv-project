@@ -6,17 +6,23 @@ import RecentCard from "./RecentCard"
 const Recent = () => {
 
   const images = [
-    require("../../../assets/r4.jpeg"),
-  require("../../../assets/r5.jpeg"),
-  require("../../../assets/r6.jpeg"),
-  require("../../../assets/r7.jpeg"),
+    require("../../../assets/h1.jpeg"),
+    require("../../../assets/h2.jpeg"),
+    require("../../../assets/h3.jpeg"),
+    require("../../../assets/h4.jpeg"),
+    require("../../../assets/h5.jpeg"),
+    require("../../../assets/h6.jpeg"),
+    require("../../../assets/h7.jpeg"),
+    require("../../../assets/h8.jpeg"),
+    require("../../../assets/h9.jpeg"),
+  
     
   ]
   return (
     <>
       <section className='recent padding'>
         <div className='container'>
-          <Heading title='MINERAL RESOURCES IN EDO STATE' subtitle='There are over 50 different solid minerals in Edo State and the Edo State Mining Development and Investment Company has obtained over 30 licenses / leases. These licenses cover areas of different solid minerals such as Gold, Lithium, Kaolin, Vespar, Lead, Bitumen and Lepidolite, Calcite and lots more.' />
+          <Heading title='We have accomplished so much over the years' subtitle='We have taken the mandate by his Excellency Governor Godwin Obaseki to revitalize the mining and solid mineral sector of Edo State with scores of records and award to show the evidence of how much we strive to leave a landmark in Edo solid mineral history.' />
           <RecentCard images={images} />
         </div>
       </section>
