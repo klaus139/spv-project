@@ -296,14 +296,14 @@ export const team = [
   {
     list: "70",
     cover: "../images/customer/t2.jpeg",
-    address: "Mrs Tina",
+    address: "Mrs Ese Martina Omoruyi",
     name: "Permanent Secretary",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "80",
     cover: "../images/customer/t3.jpeg",
-    address: "Denever, USA",
+    address: "Mr Ifa-Uwadiae Richard",
     name: "Director of Energy",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
@@ -317,13 +317,13 @@ export const team = [
   {
     list: "42",
     cover: "../images/customer/t1.jpeg",
-    address: "Mr ",
+    address: "Mr Idemudia Ofeimun ",
     name: "Drector of Safety",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
     list: "42",
-    cover: "../images/customer/team-1.jpg",
+    cover: "../images/customer/doilgas.jpeg",
     address: "Mrs Stacy Osifo",
     name: "Drector of Oil and Gas",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
@@ -342,6 +342,14 @@ export const team = [
     name: "Director Shared Services",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
+  {
+    list: "38",
+    cover: "../images/customer/tolu.jpeg",
+    address: "Ajayi Tolulope",
+    name: "Director Policy planning, Research and Statictics",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  
 ]
 export const price = [
   {

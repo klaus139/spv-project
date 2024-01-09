@@ -10,8 +10,11 @@ const Header = () => {
     <>
       <header>
         <div className='container flex'>
-          <div className='logo'>
+          <div className='logo logodiv'>
+   
             <img src='./images/logo1.png' alt='' className="logoimg"/>
+            <h5 className="logotext">Ministry of Mining and Energy Edo State</h5>
+           
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
