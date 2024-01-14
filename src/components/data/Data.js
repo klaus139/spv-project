@@ -70,6 +70,12 @@ export const partners = [
     total: "",
   },
   {
+    cover:"../images/hero/climaxlogo.jpeg",
+    name:"Climax Mining limited",
+    total:"",
+
+  },
+  {
     cover: "../images/hero/renera.png",
     name: "Renera Russia",
     total: "",
@@ -298,6 +304,13 @@ export const team = [
     cover: "../images/customer/t2.jpeg",
     address: "Mrs Ese Martina Omoruyi",
     name: "Permanent Secretary",
+    icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
+  },
+  {
+    list: "72",
+    cover: "../images/customer/climaxceo.jpeg",
+    address: "Dr Iheagwazi Emmanuel",
+    name: "Climax Mining Limited",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {

@@ -4,7 +4,7 @@ import { partners } from "../data/Data"
 const PartnerCard = () => {
   return (
     <>
-      <div className='content grid5 mtop'>
+      <div className='content grid6 mtop'>
         {partners.map((items, index) => (
           <div className='box' key={index}>
             <img src={items.cover} alt='' />
