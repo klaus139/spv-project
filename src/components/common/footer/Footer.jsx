@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2024, Edo State Mining and Investment Company. Designd By <a href="mailto:nickoklaus5@gmail.com">KlausDev</a>.</span>
+        <span>© 2024, Edo State Mining and Investment Company. Designed By <a href="mailto:nickoklaus5@gmail.com">KlausDev</a>.</span>
       </div>
     </>
   )
